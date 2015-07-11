@@ -14,6 +14,7 @@ except ImportError:
 setup(
     name='strf',
     packages=['strf'],
+    package_dir={'strf':'strf'},
     version='0.0.2',
     description="string format locals",
     long_description=readme,
