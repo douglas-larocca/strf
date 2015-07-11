@@ -15,7 +15,7 @@ setup(
     name='strf',
     packages=['strf'],
     package_dir={'strf':'strf'},
-    version='0.0.2',
+    version='0.0.3',
     description="string format locals",
     long_description=readme,
     author="Douglas La Rocca",
