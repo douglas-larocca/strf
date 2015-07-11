@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+
+with open('README.md') as readme_file:
+    readme = readme_file.read()
+
+
 try:
     from setuptools import setup
 except ImportError:
@@ -10,6 +15,7 @@ setup(
     name='strf',
     version='0.0.1',
     description="string format locals",
+    long_description=readme,
     author="Douglas La Rocca",
     author_email='larocca@larocca.io',
     url='https://github.com/douglas-larocca/strf',
