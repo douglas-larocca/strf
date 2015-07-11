@@ -13,6 +13,7 @@ except ImportError:
 
 setup(
     name='strf',
+    packages=['strf'],
     version='0.0.1',
     description="string format locals",
     long_description=readme,
